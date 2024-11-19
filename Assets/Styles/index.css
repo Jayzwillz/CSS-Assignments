@@ -1,0 +1,100 @@
+body {
+  background-color: rgba(128, 128, 128, 0.603);
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 30px;
+}
+
+#intro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #DAA520;
+  padding: 50px 20px;
+  box-shadow: 0px 0px 5px 2px rgb(82, 82, 82);
+  margin-bottom: 50px;
+}
+
+h1{
+  margin-top: 0px;
+}
+
+#comments{
+  font-size: 17px;
+}
+
+span{
+  font-weight: bold;
+}
+
+#links{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.set{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 50px;
+  gap: 30px;
+}
+
+.click{
+  max-width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* #heading {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 115, 0);
+}
+
+#links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.click {
+  padding: 30px;
+  margin: 20px;
+  background: linear-gradient(rgb(82, 82, 82), white);
+  box-shadow: 0px 0px 5px 2px rgb(82, 82, 82);
+}
+
+p {
+  font-size: 20px;
+  font-weight: bolder;
+  justify-self: center;
+  padding: 10px;
+  margin: 0px;
+  text-align: center;
+}
+
+#from {
+  background-color: white;
+  padding: 20px;
+} */

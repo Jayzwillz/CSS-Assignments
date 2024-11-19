@@ -1,0 +1,655 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgba(245, 248, 250, 1);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  box-shadow: 0px 0px 20px 0px gray;
+  position: sticky;
+  top: 0px;
+  z-index: 99;
+  background-color: rgba(245, 248, 250, 1);
+}
+
+#content-2 {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#wp-img {
+  margin-left: 40px;
+  width: 250px;
+}
+
+#account {
+  border: 3px solid;
+  padding: 7px 25px 7px 25px;
+  border-radius: 7px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#outer-section {
+  display: flex;
+  justify-content: center;
+}
+
+#main-section {
+  display: flex;
+  padding: 0px 250px 100px 250px;
+}
+
+#white-container {
+  background-color: white;
+  width: 100%;
+  font-size: 20px;
+  padding: 0px 40px 0px 40px;
+}
+
+#checkout {
+  font-size: 40px;
+  text-shadow: 3px 3px 5px gray;
+  margin: 0px 0px 50px 0px;
+  border-bottom: 3px solid rgb(223, 222, 222);
+}
+
+.info {
+  font-weight: 600;
+  text-shadow: 0px 0px 10px rgb(167, 166, 166);
+}
+
+.info-numbers {
+  border: 4px solid;
+  padding: 10px 15px 10px 15px;
+  border-radius: 50%;
+  color: rgb(96, 96, 226);
+}
+
+#name {
+  display: flex;
+  gap: 30px;
+  margin: 30px 0px 30px 0px;
+}
+
+#First-Name,
+#Last-Name {
+  width: 300px;
+}
+
+.full-name {
+  display: flex;
+  flex-direction: column;
+}
+
+#mail {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0px 70px 0px;
+  width: 100%;
+}
+
+#E-mail {
+  width: 100%;
+}
+
+#credit {
+  margin: 30px 0px 100px 0px;
+}
+
+#credited {
+  display: flex;
+  flex-direction: column;
+}
+
+#card-input {
+  display: flex;
+}
+
+#MMYY-CVC {
+  display: flex;
+}
+
+#Credit-Card,
+#MMYY,
+#CVC {
+  border-radius: 0px;
+}
+
+#Credit-Card {
+  width: 300px;
+}
+
+#MMYY,
+#CVC {
+  width: 150px;
+}
+
+input {
+  border: none;
+  background-color: rgb(241, 239, 239);
+  height: 50px;
+  border-radius: 7px;
+  padding-left: 20px;
+  font-size: 17px;
+}
+
+#submit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  background-color: rgb(5, 172, 158);
+  width: 500px;
+  border: none;
+  height: 45px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#help {
+  margin-top: 30px;
+}
+
+#question-mark {
+  border: 3px solid;
+  padding: 5px 9px 5px 9px;
+  border-radius: 50%;
+  color: rgb(96, 96, 226);
+  font-weight: bold;
+}
+
+#sponsor {
+  background-color: gray;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 15px;
+  align-content: center;
+  color: white;
+  padding: 10px;
+  margin-bottom: 70px;
+}
+
+#stripe {
+  font-size: 20px;
+}
+
+#blue-container {
+  background-color: blue;
+  width: 100%;
+  font-size: 20px;
+  padding: 0px 40px 0px 40px;
+  color: white;
+}
+
+h2 {
+  margin-bottom: 0px;
+}
+
+#amount {
+  display: flex;
+  gap: 10px;
+  margin-top: 0px;
+  align-items: baseline;
+}
+
+#dollar {
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  top: -50px;
+}
+
+#number {
+  font-size: 99px;
+}
+
+#year {
+  font-size: 30px;
+}
+
+#list {
+  margin-bottom: 50px;
+}
+
+#line {
+  padding-bottom: 20px;
+  border-bottom: 3px solid rgb(223, 222, 222);
+  margin-bottom: 50px;
+}
+
+#profile-pic {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 30px 0px 50px 0px;
+  padding: 0px;
+}
+
+#pic {
+  border-radius: 50%;
+  width: 70px;
+  display: inline;
+}
+
+/* @media (max-width: 1100px) {
+  #content-2 {
+    font-size: 17px;
+  }
+
+  #white-container {
+    font-size: 17px;
+  }
+
+  #checkout {
+    font-size: 30px;
+  }
+
+  .info {
+    font-size: 20px;
+  }
+  #First-Name,
+  #Last-Name {
+    width: 250px;
+  }
+  #E-mail {
+    width: 500px;
+  }
+
+  #Credit-Card {
+    width: 200px;
+  }
+
+  #MMYY,
+  #CVC {
+    width: 100px;
+  }
+
+  button {
+    background-color: rgb(5, 172, 158);
+    width: 400px;
+    font-size: 20px;
+  }
+
+  #blue-container {
+    font-size: 15px;
+  }
+
+  #dollar {
+    font-size: 25px;
+    position: relative;
+    top: -35px;
+  }
+
+  #number {
+    font-size: 80px;
+  }
+
+  #year {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 950px) {
+  #content-2 {
+    font-size: 15px;
+  }
+
+  #white-container {
+    font-size: 15px;
+  }
+
+  #checkout {
+    font-size: 30px;
+  }
+
+  #First-Name,
+  #Last-Name {
+    width: 200px;
+  }
+  #E-mail {
+    width: 400px;
+  }
+
+  #Credit-Card {
+    width: 150px;
+  }
+
+  #MMYY,
+  #CVC {
+    width: 70px;
+  }
+
+  button {
+    background-color: rgb(5, 172, 158);
+    width: 300px;
+    font-size: 20px;
+  }
+
+  #blue-container {
+    font-size: 15px;
+  }
+
+  #dollar {
+    font-size: 22px;
+    position: relative;
+    top: -30px;
+  }
+
+  #number {
+    font-size: 70px;
+  }
+
+  #year {
+    font-size: 22px;
+  }
+
+  #list {
+    width: 170px;
+  }
+}
+
+@media (max-width: 850px) {
+  #content-2 {
+    font-size: 12px;
+  }
+
+  #white-container {
+    font-size: 13px;
+  }
+
+  #checkout {
+    font-size: 30px;
+  }
+
+  #First-Name,
+  #Last-Name {
+    width: 170px;
+  }
+  #E-mail {
+    width: 300px;
+  }
+
+  #Credit-Card {
+    width: 150px;
+  }
+
+  #MMYY,
+  #CVC {
+    width: 70px;
+  }
+
+  label {
+    font-size: 17px;
+  }
+  button {
+    background-color: rgb(5, 172, 158);
+    width: 250px;
+    font-size: 15px;
+  }
+
+  #blue-container {
+    font-size: 15px;
+  }
+
+  #dollar {
+    font-size: 20px;
+    position: relative;
+    top: -30px;
+  }
+
+  #number {
+    font-size: 60px;
+  }
+
+  #year {
+    font-size: 20px;
+  }
+
+  #list {
+    width: 170px;
+  }
+}
+
+@media (max-width: 780px) {
+  #main-section {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 100px 100px 100px;
+  }
+
+  
+}
+
+@media (max-width: 600px){
+  
+  header{
+    display: none;
+  }
+
+  #main-section {
+    padding: 0px 30px 100px 30px;
+  }
+  
+  #white-container {
+    font-size: 15px;
+    padding: 0px 20px 0px 20px;
+    max-width: 450px;
+  }
+
+  #checkout {
+    font-size: 25px;
+  }
+
+  .info {
+    font-size: 20px;
+  }
+
+  .info-numbers {
+    border: 2px solid;
+    padding: 5px 10px 5px 10px;
+  }
+
+  #First-Name,
+  #Last-Name {
+    width: 170px;
+    height: 40px;
+  }
+  #E-mail {
+    width: 300px;
+    height: 40px;
+  }
+
+  #Credit-Card {
+    width: 150px;
+    height: 40px;
+  }
+
+  #MMYY,
+  #CVC {
+    width: 70px;
+    height: 40px;
+  }
+
+  label {
+    font-size: 15px;
+  }
+
+  button {
+    background-color: rgb(5, 172, 158);
+    width: 250px;
+    font-size: 15px;
+  }
+
+  #blue-container {
+    font-size: 15px;
+    padding: 0px 20px 0px 20px;
+    max-width: 450px;
+  }
+
+  #dollar {
+    font-size: 20px;
+    position: relative;
+    top: -30px;
+  }
+
+  #number {
+    font-size: 60px;
+  }
+
+  #year {
+    font-size: 20px;
+  }
+
+  #list {
+    width: 170px;
+  }
+} */
+/* 
+h1 {
+  font-size: 25px;
+}
+
+.name {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.full-name{
+  width: 100%;
+}
+
+#box {
+  display: flex;
+  justify-content: center;
+}
+
+#white {
+  background-color: white;
+  font-size: 20px;
+  width: 100%;
+  box-shadow: -8px -4px 10px 1px rgb(200, 204, 211);
+}
+
+#checkout {
+  font-size: 40px;
+  text-shadow: 3px 3px 5px gray;
+  padding: 0px 30px;
+  margin: 0px;
+  border-bottom: 3px solid rgb(223, 222, 222);
+}
+
+.number {
+  border: 4px solid;
+  padding: 10px 15px 10px 15px;
+  border-radius: 50%;
+  color: rgb(96, 96, 226);
+}
+
+.info {
+  font-weight: 600;
+  text-shadow: 0px 0px 10px rgb(167, 166, 166);
+}
+
+form{
+  margin-left: 30px;
+}
+
+input {
+  width: 270px;
+  border: none;
+  background-color: rgb(241, 239, 239);
+  height: 50px;
+  border-radius: 7px;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+#card-no{
+  display: flex;
+}
+
+.cvc{
+  width: 100px;
+  border-radius: 0px;
+}
+
+#credit-card{
+  border-radius: 0px;
+}
+
+.right {
+  margin-right: 20px;
+}
+
+#e-mail{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+#Email{
+  width: 100%;
+}
+
+
+#buy_WP {
+  font-size: 20px;
+  color: white;
+}
+
+#buy {
+  background-color: rgb(5, 172, 158);
+  width: 500px;
+  border: none;
+  height: 45px;
+  border-radius: 5px;
+}
+
+#powered {
+  background-color: gray;
+  border: none;
+  width: 130px;
+  height: 25px;
+  border-radius: 5px;
+  margin-left: 40%;
+}
+
+#need {
+  margin-left: 18%;
+}
+
+#big {
+  font-size: 60px;
+}
+
+#blue {
+  background-color: rgb(5, 156, 243);
+  width: 100%;
+  box-shadow: 8px -4px 10px 1px rgb(200, 204, 211);
+}
+
+.free {
+  color: white;
+  margin-left: 30px;
+} 
+*/
