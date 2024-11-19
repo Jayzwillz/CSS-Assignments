@@ -1,0 +1,165 @@
+body {
+  background-color: black;
+}
+
+#background {
+  background-color: rgb(236, 231, 231);
+  font-size: 20px;
+}
+
+#content {
+  background-color: rgb(238, 234, 234);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 600px;
+}
+
+#img,
+img {
+  height: 80px;
+}
+
+#for {
+  max-width: 500px;
+  font-size: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#inputs {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  background-color: white;
+  height: 550px;
+  justify-content: space-around;
+  border-radius: 7px;
+  box-shadow: 5px 5px 5px 5px gray;
+}
+
+input,
+select {
+  width: 250px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.arrange {
+  display: flex;
+  justify-content: space-around;
+}
+
+.longer {
+  width: 550px;
+  margin-left: 30px;
+}
+
+.long {
+  width: 530px;
+  margin-left: 30px;
+}
+
+.shift {
+  margin-left: 30px;
+}
+
+#btn,
+button {
+  align-self: center;
+  width: 400px;
+  height: 50px;
+  font-size: 25px;
+  font-weight: 700;
+  background-color: rgb(29, 212, 151);
+  color: white;
+  border: none;
+  margin-bottom: 0;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+#tc {
+  align-self: center;
+  max-width: 350px;
+  margin-top: -20px;
+}
+
+b {
+  color: rgb(73, 170, 138);
+}
+
+@media (max-width: 900px) {
+  #content {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 900px) {
+  #background {
+    height: 1000px;
+  }
+}
+
+@media (max-width: 900px) {
+  #for {
+    margin-bottom: 70px;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 650px) {
+  #background {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 650px) {
+  .arrange {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 650px) {
+  #inputs {
+    max-width: 350px;
+    align-items: center;
+    height: 700px;
+  }
+}
+
+@media (max-width: 650px) {
+  #password {
+    width: 250px;
+    height: 40px;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 650px) {
+  #AL {
+    width: 250px;
+    height: 40px;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 650px) {
+  .shift {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 650px) {
+  #background {
+    height: 1200px;
+  }
+}
+
+@media (max-width: 650px) {
+  #btn, button {
+    width: 150px;
+  }
+}
