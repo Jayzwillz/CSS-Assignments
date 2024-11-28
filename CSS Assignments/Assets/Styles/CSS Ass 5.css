@@ -6,7 +6,7 @@ body {
   background-color: rgba(245, 248, 250, 1);
 }
 
-header {
+#header-one {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -440,7 +440,7 @@ h2 {
 
 @media (max-width: 600px){
   
-  header{
+  #header-one{
     display: none;
   }
 

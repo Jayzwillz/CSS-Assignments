@@ -1,0 +1,432 @@
+body {
+  background-color: #e2f0f7;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0px 50px;
+}
+
+#header-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+#header-logo {
+  width: 200px;
+  height: 50px;
+}
+
+ul li {
+  display: inline;
+  padding: 10px;
+}
+
+ul li a {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.blue-links {
+  color: rgb(7, 141, 185);
+}
+
+#try {
+  padding: 10px 20px;
+  background-color: rgb(7, 141, 185);
+  color: white;
+  border-radius: 50px;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+#start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 200px;
+}
+
+#start p {
+  text-align: center;
+}
+
+#sign {
+  display: flex;
+  gap: 20px;
+}
+
+#signup {
+  padding: 10px 25px;
+  background-color: rgb(7, 141, 185);
+  color: white;
+  border-radius: 50px;
+  border: none;
+}
+
+#learn {
+  color: rgb(7, 141, 185);
+  font-weight: bold;
+  background-color: #e2f0f7;
+  border: none;
+}
+
+#box {
+  border: 2px solid;
+  max-width: 700px;
+  padding: 30px;
+  border-radius: 7px;
+  margin-top: 50px;
+  justify-self: center;
+  background-image: url(../Images/Blob.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 50px;
+}
+
+#shortening {
+  max-width: 500px;
+  padding-left: 30px;
+}
+
+#box p {
+  padding: 0px 170px;
+  text-align: center;
+}
+
+#ellipse {
+  max-width: 60%;
+  justify-self: center;
+  align-self: center;
+
+  padding: 20px 0px;
+}
+
+#rectangle {
+  background-image: url(../Images/Rectangle\ background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+
+#one-stop {
+  display: flex;
+  background-color: #f8f7f7;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 70px;
+}
+
+#why {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
+  margin-bottom: 70px;
+}
+
+#why p {
+  max-width: 350px;
+}
+
+#can-do {
+  display: flex;
+  flex-direction: column;
+}
+
+#url-features {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+#qr {
+  display: flex;
+}
+
+h2 span {
+  color: rgb(7, 141, 185);
+}
+
+#perfect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#perfect h2 {
+  margin-bottom: 0px;
+}
+
+#perfect p {
+  max-width: 500px;
+  text-align: center;
+}
+
+#plans {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.basic-teams {
+  border: 2px solid rgb(7, 141, 185);
+  padding: 20px 50px;
+  border-radius: 15px;
+}
+
+#professional {
+  background-color: blue;
+  min-height: 500px;
+  border-radius: 15px;
+  padding: 20px 50px;
+}
+
+#basic,
+#pro,
+#teams {
+  font-size: 20px;
+}
+
+.basic-teams li {
+  display: block;
+}
+
+#professional li {
+  display: block;
+}
+
+#professional ul {
+  display: block;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#basic-div {
+  margin-left: 30px;
+}
+
+.basic-teams ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#get-pricing {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+#get {
+  padding: 10px 25px;
+  color: rgb(7, 141, 185);
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50px;
+  border: 2px solid rgb(7, 141, 185);
+}
+
+#pricing {
+  padding: 10px 25px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50px;
+  background-color: rgb(7, 141, 185);
+  border: none;
+}
+
+#input-sec {
+  background-image: url(../Images/Background\ 1.0.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+#input-div {
+  background-color: white;
+  padding: 40px;
+  border-radius: 7px;
+  max-width: 400px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+#paste {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#main {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  height: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(7, 141, 185);
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid rgb(7, 141, 185);
+  overflow: hidden;
+}
+
+select {
+  width: 100%;
+  height: 48px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #3284ff;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid rgb(7, 141, 185);
+}
+
+#paste-div {
+  width: 100%;
+}
+
+#trim {
+  padding: 15px;
+  background-color: rgb(7, 141, 185);
+  border: none;
+  border-radius: 50px;
+  color: white;
+}
+
+form p,
+form a {
+  color: #3284ff;
+}
+
+form a {
+  font-weight: bold;
+}
+
+#faq-sec {
+  margin-bottom: 50px;
+}
+
+#faq-head {
+  text-align: center;
+}
+
+details {
+  padding: 20px;
+  border-bottom: 1px solid rgb(182, 182, 182);
+}
+
+summary {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+details summary .plus::after {
+  content: "+";
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+details[open] summary .plus::after {
+  content: "−";
+}
+
+details,
+summary {
+  list-style: none;
+}
+
+#rev {
+  background-image: url(../Images/Background\ 1.0.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+#revolution {
+  color: white;
+}
+
+#started {
+  background-color: #3284ff;
+  padding: 10px 25px;
+  border: none;
+  font-weight: bold;
+}
+
+footer{
+  display: flex;
+justify-content: center;
+}
+
+#footer-logo{
+  max-width: 200px;
+  margin-top: 15px;
+}
+
+footer ul li a{
+  font-weight: normal;
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+}
+
+footer ul li{
+  padding: 0px;
+}
+
+
+
+#footer-flex{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-align{
+  display: flex;
+}
+
+footer ul{
+  display: flex;
+  flex-direction: column;
+}
+
+#copyright{
+  padding: 50px 0px;
+  text-align: center;
+}
+
+#copyright span{
+  padding: 0px 10px;
+}
+
+.line{
+  border-right: 1px solid;
+}

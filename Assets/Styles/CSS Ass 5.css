@@ -6,7 +6,7 @@ body {
   background-color: rgba(245, 248, 250, 1);
 }
 
-header {
+#header-one {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,6 +17,76 @@ header {
   z-index: 99;
   background-color: rgba(245, 248, 250, 1);
 }
+
+#header-two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  box-shadow: 0px 0px 20px 0px gray;
+  position: sticky;
+  top: 0px;
+  z-index: 99;
+  background-color: rgba(245, 248, 250, 1);
+  display: none;
+}
+
+.menu-container {
+  position: relative;
+}
+
+summary {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+summary svg {
+  fill: rgba(2, 0, 255, 1);
+  transition: transform 0.3s ease;
+}
+
+details[open] summary svg {
+  transform: rotate(90deg);
+}
+
+.menu-container nav.menu {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: calc(100% + 10px);  /* Adjusts the pop-up to be slightly below the header */
+  background-color: #444;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 200px;
+  padding: 1rem;
+  z-index: 1000;
+  border-radius: 8px;
+}
+
+details[open] .menu {
+  display: block;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li {
+  margin: 0.5rem 0;
+}
+
+.menu ul li a {
+  text-decoration: none;
+}
+
+.menu ul li a:hover {
+  text-decoration: underline;
+}
+
+
+
 
 #content-2 {
   display: flex;
@@ -249,7 +319,7 @@ h2 {
   display: inline;
 }
 
-/* @media (max-width: 1100px) {
+@media (max-width: 1100px) {
   #content-2 {
     font-size: 17px;
   }
@@ -310,6 +380,7 @@ h2 {
 @media (max-width: 950px) {
   #content-2 {
     font-size: 15px;
+    gap: 20px;
   }
 
   #white-container {
@@ -435,19 +506,20 @@ h2 {
     padding: 0px 100px 100px 100px;
   }
 
-  
-}
-
-@media (max-width: 600px){
-  
-  header{
+  #header-one {
     display: none;
   }
 
+  #header-two{
+    display: flex;
+  }
+}
+
+@media (max-width: 600px) {
   #main-section {
     padding: 0px 30px 100px 30px;
   }
-  
+
   #white-container {
     font-size: 15px;
     padding: 0px 20px 0px 20px;
@@ -521,8 +593,7 @@ h2 {
   #list {
     width: 170px;
   }
-} */
-/* 
+}
 h1 {
   font-size: 25px;
 }
@@ -534,7 +605,7 @@ h1 {
   overflow: hidden;
 }
 
-.full-name{
+.full-name {
   width: 100%;
 }
 
@@ -570,7 +641,7 @@ h1 {
   text-shadow: 0px 0px 10px rgb(167, 166, 166);
 }
 
-form{
+form {
   margin-left: 30px;
 }
 
@@ -584,16 +655,16 @@ input {
   font-size: 20px;
 }
 
-#card-no{
+#card-no {
   display: flex;
 }
 
-.cvc{
+.cvc {
   width: 100px;
   border-radius: 0px;
 }
 
-#credit-card{
+#credit-card {
   border-radius: 0px;
 }
 
@@ -601,16 +672,15 @@ input {
   margin-right: 20px;
 }
 
-#e-mail{
+#e-mail {
   display: flex;
   flex-direction: column;
   width: 80%;
 }
 
-#Email{
+#Email {
   width: 100%;
 }
-
 
 #buy_WP {
   font-size: 20px;
@@ -651,5 +721,4 @@ input {
 .free {
   color: white;
   margin-left: 30px;
-} 
-*/
+}
