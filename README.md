@@ -1,0 +1,1 @@
+The CSS Assignments repository contains projects showcasing various CSS techniques and implementations. It features a mix of HTML(58.9%) and CSS (41.1%) to practice and demonstrate styling skillseffectively.
